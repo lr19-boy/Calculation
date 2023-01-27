@@ -65,42 +65,43 @@
         function fun() {
             document.getElementById("Reset all").reset();
         }
+
     </script>
     <div class="calculations">
         <div class="box">
+            <h2>
+                Calculations of Addition and Subtraction
+            </h2>
+            <br>
+            <p> Addition </p>
+            <input type="text" placeholder="Enter the number" id="fNum"> +
+            <input type="text" placeholder="Enter the number" id="sNum"> =
+            <button onclick="add()">Add</button>
+            <p id="result"></p>
+            <p> Subtraction </p>
+            <input type="text" placeholder="Enter the number" id="fNum1"> -
+            <input type="text" placeholder="Enter the number" id="sNum1"> =
+            <button onclick="subtraction()">Subtract</button>
+            <p id="result1"></p>
+            <p> Multiplication </p>
+            <input type="text" placeholder="Enter the number" id="fNum2"> *
+            <input type="text" placeholder="Enter the number" id="sNum2"> =
+            <button onclick="multiplication()">Multiply</button>
+            <p id="result2"></p>
+            <p> Division </p>
+            <input type="text" placeholder="Enter the number" id="fNum3"> /
+            <input type="text" placeholder="Enter the number" id="sNum3"> =
+            <button onclick="division()">Division</button>
+            <p id="result3"></p>
+            <p> Module </p>
+            <input type="text" placeholder="Enter the number" id="fNum4"> %
+            <input type="text" placeholder="Enter the number" id="sNum4"> =
+            <button onclick="modules()">Module</button>
+            <p id="result4"></p>
             <form id="Reset all">
-                <h2>
-                    Calculations of Addition and Subtraction
-                </h2>
-                <br>
-                <p> Addition </p>
-                <input type="text" placeholder="Enter the number" id="fNum"> +
-                <input type="text" placeholder="Enter the number" id="sNum"> =
-                <button onclick="add()">Add</button>
-                <p id="result"></p>
-                <p> Subtraction </p>
-                <input type="text" placeholder="Enter the number" id="fNum1"> -
-                <input type="text" placeholder="Enter the number" id="sNum1"> =
-                <button onclick="subtraction()">Subtract</button>
-                <p id="result1"></p>
-                <p> Multiplication </p>
-                <input type="text" placeholder="Enter the number" id="fNum2"> *
-                <input type="text" placeholder="Enter the number" id="sNum2"> =
-                <button onclick="multiplication()">Multiply</button>
-                <p id="result2"></p>
-                <p> Division </p>
-                <input type="text" placeholder="Enter the number" id="fNum3"> /
-                <input type="text" placeholder="Enter the number" id="sNum3"> =
-                <button onclick="division()">Division</button>
-                <p id="result3"></p>
-                <p> Module </p>
-                <input type="text" placeholder="Enter the number" id="fNum4"> %
-                <input type="text" placeholder="Enter the number" id="sNum4"> =
-                <button onclick="modules()">Module</button>
-                <p id="result4"></p>
                 <button class="reset" onClick="fun()"> Reset </button>
+            </form>
         </div>
-        </form>
     </div>
     <footer>Copyrights @ 2023 - <a href="https://replit.com/@LR19Boy"> LR19Boy </a></footer>
 </body>
