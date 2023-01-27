@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/images.png");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: initial;
+}
+
+.calculations {
+    width: 100%;
+    background-color: aqua;
+}
+
+.box {
+    text-align: center;
+    margin: 134px;
+    padding: 50px;
+}
+
+input {
+    background-color: #0051ff;
+    width: 200px;
+    color: greenyellow;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+button {
+    background-color: black;
+    width: 70px;
+    color: white;
+    padding: 10px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}

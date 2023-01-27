@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>
+        Calculations
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/image.png" type="image">
+    <link rel='stylesheet' type='text/css' href='../css/index.css'>
+</head>
+
+<body>
+    <script lang="js">
+        //calculations
+        function add() {
+            var fNum = Number(document.getElementById("fNum").value);
+            var sNum = Number(document.getElementById("sNum").value);
+            var result = fNum + sNum;
+            var output = "Addition of two numbers is " + result;
+
+            document.getElementById("result").style = "color:black";
+            document.getElementById("result").innerHTML = output;
+        }
+
+        function subtraction() {
+            var fNum1 = Number(document.getElementById("fNum1").value);
+            var sNum1 = Number(document.getElementById("sNum1").value);
+            var result1 = fNum1 - sNum1;
+            var output1 = "Subtraction of two numbers is " + result1;
+
+            document.getElementById("result1").style = "color:black";
+            document.getElementById("result1").innerHTML = output1;
+        }
+        function multiplication() {
+            var fNum2 = Number(document.getElementById("fNum2").value);
+            var sNum2 = Number(document.getElementById("sNum2").value);
+            var result2 = fNum2 * sNum2;
+            var output2 = "Multiplication of two numbers is " + result2;
+
+            document.getElementById("result2").style = "color:black";
+            document.getElementById("result2").innerHTML = output2;
+        }
+        function division() {
+            var fNum3 = Number(document.getElementById("fNum3").value);
+            var sNum3 = Number(document.getElementById("sNum3").value);
+            var result3 = fNum3 / sNum3;
+            var output3 = "Division of two numbers is " + result3;
+
+            document.getElementById("result3").style = "color:black";
+            document.getElementById("result3").innerHTML = output3;
+        }
+        function modules() {
+            var fNum4 = Number(document.getElementById("fNum4").value);
+            var sNum4 = Number(document.getElementById("sNum4").value);
+            var result4 = fNum4 % sNum4 / 2;
+            var output4 = "Module of two numbers is " + result4;
+
+            document.getElementById("result4").style = "color:black";
+            document.getElementById("result4").innerHTML = output4;
+        }
+
+        function fun() {
+            document.getElementById("Reset all").reset();
+        }
+    </script>
+    <div class="calculations">
+        <div class="box">
+            <form id="Reset all">
+                <h2>
+                    Calculations of Addition and Subtraction
+                </h2>
+                <br>
+                <p> Addition </p>
+                <input type="text" placeholder="Enter the number" id="fNum"> +
+                <input type="text" placeholder="Enter the number" id="sNum"> =
+                <button onclick="add()">Add</button>
+                <p id="result"></p>
+                <p> Subtraction </p>
+                <input type="text" placeholder="Enter the number" id="fNum1"> -
+                <input type="text" placeholder="Enter the number" id="sNum1"> =
+                <button onclick="subtraction()">Subtract</button>
+                <p id="result1"></p>
+                <p> Multiplication </p>
+                <input type="text" placeholder="Enter the number" id="fNum2"> *
+                <input type="text" placeholder="Enter the number" id="sNum2"> =
+                <button onclick="multiplication()">Multiply</button>
+                <p id="result2"></p>
+                <p> Division </p>
+                <input type="text" placeholder="Enter the number" id="fNum3"> /
+                <input type="text" placeholder="Enter the number" id="sNum3"> =
+                <button onclick="division()">Division</button>
+                <p id="result3"></p>
+                <p> Module </p>
+                <input type="text" placeholder="Enter the number" id="fNum4"> %
+                <input type="text" placeholder="Enter the number" id="sNum4"> =
+                <button onclick="modules()">Module</button>
+                <p id="result4"></p>
+                <button class="reset" onClick="fun()"> Reset </button>
+        </div>
+        </form>
+    </div>
+    <footer>Copyrights @ 2023 - <a href="https://replit.com/@LR19Boy"> LR19Boy </a></footer>
+</body>
+
+</html>
