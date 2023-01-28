@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/images.png");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: initial;
+}
+
+button {
+    background-color: black;
+    width: 95px;
+    color: white;
+    padding: 10px;
+    margin: 5px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:link {
+    text-decoration: none;
+}
+
+footer {
+    bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+.bodycontent {
+    color: white;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    padding: 20px;
+    color: black;
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
